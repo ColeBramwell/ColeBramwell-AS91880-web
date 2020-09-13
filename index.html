@@ -2,36 +2,38 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Arcade</title>
+    <title>Neon Alley</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="center-align-default">
 
     <div class="above-border">
+      <canvas id="space-box"></canvas>
+      <div class="allow-scroll">
+        <div class="content">
+          <script src="background-script.js"></script>
 
-      <div class="content">
+          <header>
+            <h1 class="neon-text" data-text="ARCADE">NEON<br>ALLEY</h1>
+          </header>
 
-        <header>
-          <h1 class="neon-text" data-text="ARCADE">NEON<br>ALLEY</h1>
-        </header>
+          <nav>
+            <ul class="nav-list">
+              <li><a data-text="Visit Us" href="visit-us.html">Visit Us</a></li>
+              <li><a data-text="Highscores" href="highscores.html">Highscores</a></li>
+              <li><a data-text="About Us" href="about-us.html">About Us</a></li>
+            </ul>
+          </nav>
 
-        <nav>
-          <ul class="nav-list">
-            <li><a data-text="Visit Us" href="#">Visit Us</a></li>
-            <li><a data-text="Our Games" href="#">Our Games</a></li>
-            <li><a data-text="Highscores" href="#">Highscores</a></li>
-            <li><a data-text="Food and Drinks" href="#">Food and Drinks</a></li>
-            <li><a data-text="Contact Us" href="#">Contact Us</a></li>
-          </ul>
-        </nav>
+          <footer>
+            <ul class="footer-list">
+              <li><a id="facebook" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.svg" alt="Facebook profile"></a></li>
+              <li><a id="instagram" href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram-icon.svg" alt="Instagram profile"></a></li>
+              <li><a id="twitter" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter-icon.svg" alt="Twitter profile"></a></li>
+            </ul>
+          </footer>
 
-        <footer>
-          <ul class="footer-list">
-            <li><a id="facebook" href="#">FB</a></li>
-            <li><a id="instagram" href="#">IG</a></li>
-            <li><a id="twitter" href="#">TW</a></li>
-          </ul>
-        </footer>
+        </div>
       </div>
     </div>
   </body>
